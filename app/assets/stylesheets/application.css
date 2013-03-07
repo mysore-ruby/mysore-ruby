@@ -11,3 +11,25 @@
  *= require_self
  *= require_tree .
  */
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "Helvetica Neue", Arial;
+  font-size: 18px;
+  line-height: 1.4
+}
+
+h1, h2, h3 {
+  font-family: "PT Sans";
+  font-weight: bold;
+  letter-spacing: -1px
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  border-top: 1px solid silver;
+  margin: 40px 0 30px 0;
+  padding-top: 40px;
+  clear: both
+}
