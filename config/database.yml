@@ -55,3 +55,4 @@ production:
   pool: 5
   username: mysore_ruby
   password:
+  host: localhost
