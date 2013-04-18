@@ -1,34 +1,45 @@
-%h2 Mysore Ruby User Group
+%div{ :style => 'background-color:#ff9000;' }
+  %div{ :style => 'line-height:305px; margin-left:auto; margin-right:auto; width:788px; height:396px; background-image:url(' + image_path("MysoreRUG.jpg") + '); background-repeat:no-repeat;' }
 
-%h3 Upcoming Meetings
+    %h2{ :style => 'font-family:Impact; font-size:50px; margin:0; color:#ff0000; align:center;' } Mysore Ruby User Group
 
-%p
-  = link_to "Open Hack Mysore Edition - Sat Apr 20",
-    "http://gathers.us/events/open-hack-mysore-edition-apr-2013"
+%div
+  %h3{ :style => 'background-color:#ff2020; padding:30px; margin:30px 30px;' }
 
-%h3 Past meetings
+    Upcoming Meetings
 
-%p Mysore RUG April 2013 Meeting - Sat Apr 13</p>
+    %ul
+      = link_to "Open Hack Mysore Edition - Sat Apr 20",
+        "http://gathers.us/events/open-hack-mysore-edition-apr-2013"
 
-%p
-  = link_to "Learn ruby through RubyKoans - Sat Mar 23", "http://gathers.us/events/mysore-rug-learn-ruby-through-rubykoans"
+%div
+  %h3{ :style => 'background-color:#d200c9; padding:30px; margin:30px 30px;' }
 
-<div style="border-width:2px; border-style:solid; width:810px;">
-<div style="padding:5px;">
-= link_to "First group meeting Saturday Mar 9th, 2013", "http://gathers.us/events/first-ever-mysore-ruby-user-group-meeting"
-= image_tag("first_meetup.jpg", :padding => "5px", :alt => "Pic from the first meetup")
+    Past meetings
 
-<br/>
+    %ul
+      %p Group Hacking - Sat Apr 13 (no link available)</p>
 
-</div>
-</div>
+      %p
+        = link_to "Learn ruby through RubyKoans - Sat Mar 23", "http://gathers.us/events/mysore-rug-learn-ruby-through-rubykoans"
 
-%h3 Google Group
+      %p
+        = link_to "First group meeting Saturday Mar 9th, 2013", "http://gathers.us/events/first-ever-mysore-ruby-user-group-meeting"
 
-%p
-  = link_to "Mysore Ruby User Group", "https://groups.google.com/group/mysore-rb"
+%div
+  %h3{ :style => 'background-color:#00d200; padding:30px; margin:30px 30px;' }
 
-%h3 Code for This Website
+    Google Group
 
-%p
-  = link_to "Github Repository", "https://github.com/mysore-ruby/mysore-ruby"
+    %ul
+      %p
+        = link_to "Mysore Ruby User Group", "https://groups.google.com/group/mysore-rb"
+
+%div
+  %h3{ :style => 'background-color:#d27700; padding:30px; margin:30px 30px;' }
+
+    Code for This Website
+
+    %ul
+      %p
+        = link_to "Github Repository", "https://github.com/mysore-ruby/mysore-ruby"

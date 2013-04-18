@@ -64,5 +64,14 @@ module MysoreRuby
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # Have rails generators use haml instead of erb
+    config.generators do |g|
+      g.template_engine :haml
+
+      # you can also specify a different test framework or ORM here
+      # g.test_framework  :rspec
+      # g.orm             :mongoid
+    end   
   end
 end
