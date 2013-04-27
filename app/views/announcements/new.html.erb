@@ -1,15 +1,23 @@
 <h1>Announce a Meeting</h1>
 
-<%= form_for @announcement do |f|
-%>
+<%= form_for @announcement do |f| %>
 
-<%= f.label :name
-%>
+<p>
+	
+<%= f.label :name %>
 
-<%= f.text_field :name
-%>
+<%= f.text_field :name %>
 
-<%= f.submit
-%>
+</p>
+
+<p>
+	<%= f.label :startdatetime, "Date and Time" %>
+
+	<%= f.datetime_select :startdatetime %>
+</p>
+
+<p>
+	<%= f.submit %>
+</p>
 
 <% end %>
