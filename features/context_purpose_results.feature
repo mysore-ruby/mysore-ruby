@@ -8,6 +8,6 @@ Feature: CPR link
   
   Scenario: See the CPR
     Given I am on the homepage
-	When I follow "Context, Purpose, and Results"
-	Then I am on the "CPR Page"
+	Then the page should have a link labeled "Context, Purpose, and Results" pointing to "http://dl.dropboxusercontent.com/u/3554509/vision_stmnt_mysore_ruby.pdf"
+
   
